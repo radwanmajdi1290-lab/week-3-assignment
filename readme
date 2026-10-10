@@ -1,0 +1,83 @@
+Week 3 Assignment on Conditions and Loops
+Description
+Grade Reporter & Bug Hunt
+
+Put this week's two big ideas - repeating work with loops and making decisions with conditions - to work in two small programs.
+
+This assignment will help you practice:
+
+Looping through a list with for
+Choosing between several outcomes with if / elif / else
+Building up a running total or count inside a loop
+Reading a while loop and understanding when it stops
+Finding a bug that produces no error message at all
+
+Files to create (use these exact names):
+
+grade_reporter.py
+bug_hunt.py
+
+GitHub repository name to use (public, exact): plp-python-week3
+
+Your submission for this assignment is one link: your public GitHub repository containing all the files above. Use these exact file and repository names so your submission matches the marking checklist.
+Part A - Grade Reporter
+
+Create the file grade_reporter.py.
+
+Start your file with this list. Do not change these numbers.
+
+scores = [72, 45, 90, 61, 38]
+
+Use a for loop to go through every score in the list.
+Inside the loop, use if / elif / else to work out a grade: 80 and above is A, 70 to 79 is B, 50 to 69 is C, and below 50 is F.
+Print each score with its grade on its own line.
+Count how many learners passed (a score of 50 or more) and print the number that passed and the number that failed.
+Add up all the scores and print the average, rounded to one decimal place round(average, 1).
+
+Every number you print must be worked out by your code. Do not count the passes yourself and type in 3.
+
+Required results:
+
+A working grade_reporter.py that prints a grade for all five scores.
+The pass count, the fail count, and the average, all calculated by your program.
+Part B - Bug Hunt
+
+Create the file bug_hunt.py and paste in this broken program exactly as shown:
+
+count = 1
+total = 0
+
+while count < 5
+    total = total + count
+    count = count + 1
+
+print("Sum of 1 to 5 is: " + total)
+
+
+
+This program is supposed to add up the numbers 1, 2, 3, 4, and 5. The correct answer is 15.
+
+Run the program and read the first error message carefully.
+Fix the bugs one at a time, re-running after each fix - this program hides three bugs.
+Above each line you fixed, add a comment starting with # BUG: explaining what was wrong and how you fixed it.
+
+Be warned: only two of these bugs produce an error message. The third one lets the program run happily and print an answer that is simply wrong. If your program prints anything other than 15, you still have a bug.
+
+Required results:
+
+A fixed bug_hunt.py that prints Sum of 1 to 5 is: 15.
+Three # BUG: comments, one for each bug you found.
+Submission Requirements
+
+Your submission is one link to a public GitHub repository.
+
+Create a public GitHub repository named exactly: plp-python-week3
+Add all your work. The repository must contain:
+grade_reporter.py
+bug_hunt.py (with your three # BUG: comments)
+README.md - the assignment title, one line describing each file, and 2–3 sentences: which bug in Part B was hardest to find, and how did you know something was wrong when there was no error message?
+Submit the repository link on the LMS:
+
+https://github.com/<your-username>/plp-python-week3
+
+Before you submit: open your link in a private/incognito browser window - if you can see the files without logging in, the repo is public, and your instructor can mark it.
